@@ -39,8 +39,8 @@ Projektet fokuserar på följande lärandemål:
 
 Projektet består av tre huvudkomponenter inom ett virtuellt LAN:
 
-- 🖥 **Klient (Debian)**: Innehåller TFTP-klient, SSH och kodredigerare. Initierar filöverföringar.
-- 🔄 **Proxy**: Fångar upp och modifierar trafiken mellan klient och server. Utvecklad i Python.
+- 🖥 **Klient (Debian)**: Innehåller TFTP-klient, SSH och kodredigerare. Initierar filöverföringar. Utvecklad i python. 
+- 🔄 **Proxy**: Fångar upp och modifierar trafiken mellan klient och server. 
 - 🗄 **Server**: Kör TFTP-servern och svarar på klientens förfrågningar.
 
 ---
